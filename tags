@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Ascii	specialless/specialless.py	/^Ascii = {$/;"	v
+BUILDDIR	docs/Makefile	/^BUILDDIR      = build$/;"	m
+BUILDDIR	docs/make.bat	/^set BUILDDIR=build$/;"	v
+Revertable	specialless/specialless.py	/^class Revertable(object):$/;"	c
+SOURCEDIR	docs/Makefile	/^SOURCEDIR     = source$/;"	m
+SOURCEDIR	docs/make.bat	/^set SOURCEDIR=source$/;"	v
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   ?= sphinx-build$/;"	m
+SPHINXBUILD	docs/make.bat	/^	set SPHINXBUILD=sphinx-build$/;"	v
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    ?=$/;"	m
+SpeciallessTest	test/specialless.py	/^class SpeciallessTest(unittest.TestCase):$/;"	c
+author	docs/source/conf.py	/^author = "Erdem Aybek"$/;"	v
+author	setup.py	/^    author="Erdem Aybek",$/;"	v
+author_email	setup.py	/^    author_email="eaybek@gmail.com",$/;"	v
+classifiers	setup.py	/^    classifiers=[$/;"	v
+convert	specialless/specialless.py	/^    def convert(string=None):$/;"	m	class:Revertable
+copyright	docs/source/conf.py	/^copyright = "2019, Erdem Aybek"$/;"	v
+description	setup.py	/^    description=" ".join([""]),$/;"	v
+end	docs/make.bat	/^:end$/;"	l
+exclude_patterns	docs/source/conf.py	/^exclude_patterns = []$/;"	v
+extensions	docs/source/conf.py	/^extensions = ["sphinx.ext.autodoc"]$/;"	v
+help	docs/make.bat	/^:help$/;"	l
+html_static_path	docs/source/conf.py	/^html_static_path = ["_static"]$/;"	v
+html_theme	docs/source/conf.py	/^html_theme = "alabaster"$/;"	v
+long_description	setup.py	/^    long_description = fh.read()$/;"	v
+long_description	setup.py	/^    long_description=long_description,$/;"	v
+long_description_content_type	setup.py	/^    long_description_content_type="text\/markdown",$/;"	v
+master_doc	docs/source/conf.py	/^master_doc = "index"$/;"	v
+my_special_string	sample/sample.py	/^my_special_string = ">£#$½¾{()€ª¶[]]}`````''''''$$$$$$"$/;"	v
+name	setup.py	/^    name="specialless",$/;"	v
+not_so_special	sample/sample.py	/^not_so_special = Revertable.convert(my_special_string)$/;"	v
+packages	setup.py	/^    packages=setuptools.find_packages(),$/;"	v
+project	docs/source/conf.py	/^project = "Specialless"$/;"	v
+revert	specialless/specialless.py	/^    def revert(string=None):$/;"	m	class:Revertable
+special_again	sample/sample.py	/^special_again = Revertable.revert(not_so_special)$/;"	v
+templates_path	docs/source/conf.py	/^templates_path = ["_templates"]$/;"	v
+url	setup.py	/^    url="https:\/\/github.com\/eaybek\/specialless",$/;"	v
+version	setup.py	/^    version="0.0.2",$/;"	v
